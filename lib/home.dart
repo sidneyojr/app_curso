@@ -15,12 +15,15 @@ class Home extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            ElevatedButton(
-                onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Page2()));
-                },
-                child: const Text('Próxima Página')),
+            SizedBox(
+              width: 240,
+              child: ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => const Page2()));
+                  },
+                  child: const Text('Próxima Página')),
+            ),
             // Container(
             //   color: Colors.lightBlueAccent,
             //   width: 300,
