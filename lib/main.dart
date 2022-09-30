@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Curso Fatec Flutter',
+      title: 'Curso Fatec Flutter Desenvolvimento',
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
