@@ -9,7 +9,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text('Curso Fatec Flutter'),
+        title: const Text('Curso Fatec Flutter Desenvolvimento'),
       ),
       body: Center(
         child: Column(
